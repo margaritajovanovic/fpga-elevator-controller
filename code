@@ -1,228 +1,275 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2025.1 (64-bit)                              -->
-<!--                                                                         -->
-<!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
-<!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 02/02/2026 10:50:13 AM
+-- Design Name: 
+-- Module Name: projekat - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
 
-<Project Product="Vivado" Version="7" Minor="70" Path="C:/FAKS/VIII SEMESTAR/FPGA/ElevatorController/myproject/myproject.xpr">
-  <DefaultLaunch Dir="$PRUNDIR"/>
-  <Configuration>
-    <Option Name="Id" Val="fea47bd958ee47c79b9d64584c711e3c"/>
-    <Option Name="Part" Val="xc7z010clg400-1"/>
-    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
-    <Option Name="CompiledLibDirXSim" Val=""/>
-    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
-    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
-    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
-    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
-    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
-    <Option Name="SimulatorInstallDirModelSim" Val=""/>
-    <Option Name="SimulatorInstallDirQuesta" Val=""/>
-    <Option Name="SimulatorInstallDirXcelium" Val=""/>
-    <Option Name="SimulatorInstallDirVCS" Val=""/>
-    <Option Name="SimulatorInstallDirRiviera" Val=""/>
-    <Option Name="SimulatorInstallDirActiveHdl" Val=""/>
-    <Option Name="SimulatorGccInstallDirModelSim" Val=""/>
-    <Option Name="SimulatorGccInstallDirQuesta" Val=""/>
-    <Option Name="SimulatorGccInstallDirXcelium" Val=""/>
-    <Option Name="SimulatorGccInstallDirVCS" Val=""/>
-    <Option Name="SimulatorGccInstallDirRiviera" Val=""/>
-    <Option Name="SimulatorGccInstallDirActiveHdl" Val=""/>
-    <Option Name="SimulatorVersionXsim" Val="2025.1"/>
-    <Option Name="SimulatorVersionModelSim" Val="2024.3"/>
-    <Option Name="SimulatorVersionQuesta" Val="2024.3_3"/>
-    <Option Name="SimulatorVersionXcelium" Val="24.09.001"/>
-    <Option Name="SimulatorVersionVCS" Val="W-2024.09-SP1"/>
-    <Option Name="SimulatorVersionRiviera" Val="2024.10"/>
-    <Option Name="SimulatorVersionActiveHdl" Val="15.0"/>
-    <Option Name="SimulatorGccVersionXsim" Val="9.3.0"/>
-    <Option Name="SimulatorGccVersionModelSim" Val="7.4.0"/>
-    <Option Name="SimulatorGccVersionQuesta" Val="7.4.0"/>
-    <Option Name="SimulatorGccVersionXcelium" Val="9.3.0"/>
-    <Option Name="SimulatorGccVersionVCS" Val="9.2.0"/>
-    <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
-    <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
-    <Option Name="TargetLanguage" Val="VHDL"/>
-    <Option Name="SimulatorLanguage" Val="VHDL"/>
-    <Option Name="BoardPart" Val="digilentinc.com:arty-z7-10:part0:1.1"/>
-    <Option Name="ActiveSimSet" Val="sim_1"/>
-    <Option Name="DefaultLib" Val="xil_defaultlib"/>
-    <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
-    <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
-    <Option Name="IPCachePermission" Val="read"/>
-    <Option Name="IPCachePermission" Val="write"/>
-    <Option Name="EnableCoreContainer" Val="FALSE"/>
-    <Option Name="EnableResourceEstimation" Val="FALSE"/>
-    <Option Name="SimCompileState" Val="TRUE"/>
-    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
-    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
-    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
-    <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="DSABoardId" Val="arty-z7-10"/>
-    <Option Name="WTXSimLaunchSim" Val="0"/>
-    <Option Name="WTModelSimLaunchSim" Val="0"/>
-    <Option Name="WTQuestaLaunchSim" Val="0"/>
-    <Option Name="WTIesLaunchSim" Val="0"/>
-    <Option Name="WTVcsLaunchSim" Val="0"/>
-    <Option Name="WTRivieraLaunchSim" Val="0"/>
-    <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="0"/>
-    <Option Name="WTModelSimExportSim" Val="0"/>
-    <Option Name="WTQuestaExportSim" Val="0"/>
-    <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="0"/>
-    <Option Name="WTRivieraExportSim" Val="0"/>
-    <Option Name="WTActivehdlExportSim" Val="0"/>
-    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
-    <Option Name="XSimRadix" Val="hex"/>
-    <Option Name="XSimTimeUnit" Val="ns"/>
-    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
-    <Option Name="XSimTraceLimit" Val="65536"/>
-    <Option Name="SimTypes" Val="rtl"/>
-    <Option Name="SimTypes" Val="bfm"/>
-    <Option Name="SimTypes" Val="tlm"/>
-    <Option Name="SimTypes" Val="tlm_dpi"/>
-    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
-    <Option Name="DcpsUptoDate" Val="TRUE"/>
-    <Option Name="UseInlineHdlIP" Val="TRUE"/>
-    <Option Name="LocalIPRepoLeafDirName" Val="ip_repo"/>
-  </Configuration>
-  <FileSets Version="1" Minor="32">
-    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
-      <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/new/project1.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <Config>
-        <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="project1"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
-      <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../../Zybo-Z7-Master.xdc">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
-      <Config>
-        <Option Name="ConstrsType" Val="XDC"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
-      <Config>
-        <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="project1"/>
-        <Option Name="TopLib" Val="xil_defaultlib"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
-        <Option Name="TransportPathDelay" Val="0"/>
-        <Option Name="TransportIntDelay" Val="0"/>
-        <Option Name="SelectedSimModel" Val="rtl"/>
-        <Option Name="PamDesignTestbench" Val=""/>
-        <Option Name="PamDutBypassFile" Val="xil_dut_bypass"/>
-        <Option Name="PamSignalDriverFile" Val="xil_bypass_driver"/>
-        <Option Name="PamPseudoTop" Val="pseudo_tb"/>
-        <Option Name="SrcSet" Val="sources_1"/>
-        <Option Name="CosimPdi" Val=""/>
-        <Option Name="CosimPlatform" Val=""/>
-        <Option Name="CosimElf" Val=""/>
-        <Option Name="Dmv" Val=""/>
-      </Config>
-    </FileSet>
-    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
-      <Filter Type="Utils"/>
-      <Config>
-        <Option Name="TopAutoSet" Val="TRUE"/>
-      </Config>
-    </FileSet>
-  </FileSets>
-  <Simulators>
-    <Simulator Name="XSim">
-      <Option Name="Description" Val="Vivado Simulator"/>
-      <Option Name="CompiledLib" Val="0"/>
-    </Simulator>
-    <Simulator Name="ModelSim">
-      <Option Name="Description" Val="ModelSim Simulator"/>
-    </Simulator>
-    <Simulator Name="Questa">
-      <Option Name="Description" Val="Questa Advanced Simulator"/>
-    </Simulator>
-    <Simulator Name="Riviera">
-      <Option Name="Description" Val="Riviera-PRO Simulator"/>
-    </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
-    </Simulator>
-  </Simulators>
-  <Runs Version="1" Minor="22">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2025"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z010clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2025"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-  </Runs>
-  <Board>
-    <Jumpers/>
-  </Board>
-  <DashboardSummary Version="1" Minor="0">
-    <Dashboards>
-      <Dashboard Name="default_dashboard">
-        <Gadgets>
-          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
-            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
-          </Gadget>
-          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
-            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
-          </Gadget>
-          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
-            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
-          </Gadget>
-          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
-            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
-          </Gadget>
-          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
-            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
-            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
-            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
-          </Gadget>
-          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
-            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
-          </Gadget>
-        </Gadgets>
-      </Dashboard>
-      <CurrentDashboard>default_dashboard</CurrentDashboard>
-    </Dashboards>
-  </DashboardSummary>
-</Project>
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity project1 is
+    Port ( clk : in STD_LOGIC;
+           reset : in STD_LOGIC;
+           unutrasnji : in STD_LOGIC_VECTOR (2 downto 0);
+           spoljasnji : in STD_LOGIC_VECTOR (2 downto 0);
+           senzor : in STD_LOGIC;
+           displej : out STD_LOGIC_VECTOR (6 downto 0);
+           crvena : out STD_LOGIC;
+           zelena : out STD_LOGIC;
+           plava : out STD_LOGIC;
+           test : out std_logic;
+           led_spoljasnja : out STD_LOGIC_VECTOR (2 downto 0));
+end project1;
+
+architecture Behavioral of project1 is
+signal clkBrojac: integer range 0 to 99999999 := 0;
+signal tick1s: std_logic := '0';
+type stanje is (pocetno, na_gore, na_dole, dolazak, vrata_otvorena, vrata_zatvorena);
+signal trenutno, sledece: stanje;
+signal brojacSekundi1: integer range 0 to 5 :=0; 
+signal brojacSekundi2: integer range 0 to 10 :=0; 
+signal  sprat, next_sprat: integer range 0 to 2 :=0;
+--signal  sprat_temp:  integer range 0 to 2 :=0;
+signal diode_1: std_logic_vector (6 downto 0);
+signal unutrasnji_t: integer range 0 to 3 :=3;
+signal spoljasnji_t: integer range 0 to 3 :=3;
+signal reg_unutrasnji : std_logic_vector  (2 downto 0) := "000";
+signal reg_spoljasnji : std_logic_vector  (2 downto 0) := "000";
+
+
+begin
+trenutni_sprat: process(sprat, trenutno, brojacSekundi2)
+   variable prikaz: integer range 0 to 2;
+begin
+   prikaz := sprat;
+   if (trenutno = na_gore or trenutno = na_dole) and (brojacSekundi2 >= 5 and brojacSekundi2 <= 10) then
+        if (sprat = 0 and next_sprat = 2) or (sprat = 2 and next_sprat = 0) then
+            prikaz := 1; -- Show floor 1 while passing through
+        end if;
+    end if;
+    case prikaz is
+        when 0 => diode_1<="1111110";
+        when 1 => diode_1<="0110000";
+        when 2 => diode_1<="1101101";
+        when others => diode_1<="0000000";
+     end case;
+   displej<=diode_1;
+end process;
+
+unutrasnji_tasteri: process(unutrasnji)
+begin
+    if(unutrasnji/="000") then
+    case unutrasnji is
+        when "001" => unutrasnji_t<=0;
+        when "010" => unutrasnji_t<=1;
+        when "100" => unutrasnji_t<=2;
+        when others => unutrasnji_t<=3;
+     end case;
+     end if;
+end process;
+
+spoljasnji_tasteri: process(spoljasnji)
+begin
+    if(spoljasnji/="000") then
+    case spoljasnji is
+        when "001" => spoljasnji_t<=0;
+        when "010" => spoljasnji_t<=1;
+        when "100" => spoljasnji_t<=2;
+        when others => spoljasnji_t<=3;
+     end case;
+     end if;
+end process;
+
+--brojac vremena
+tick: process(clk,reset) 
+begin
+    if (reset='1') then
+        clkBrojac<=0;
+        tick1s<='0';
+    elsif(clk'event and clk='1')then 
+        if (clkBrojac=99999999) then 
+            clkBrojac<=0;
+            tick1s<='1';
+        else
+            clkBrojac<=clkBrojac+1;
+            tick1s<='0';
+        end if;
+    end if;
+end process;
+
+--sekvencijalna logika: registar stanja
+registar_stanja1: process(clk,reset)
+begin 
+    if(reset='1')then
+        trenutno<=pocetno;
+        brojacSekundi1<=0;
+elsif(clk'event and clk='1')then
+      if (tick1s='1') then
+           if (trenutno/=sledece) then
+             trenutno<=sledece;
+             sprat<=next_sprat;
+             brojacSekundi1<=0; 
+             brojacSekundi2<=0;
+            else
+              brojacSekundi1<=brojacSekundi1+1;
+              brojacSekundi2<=brojacSekundi2+1;
+            end if;
+      end if;  
+end if;
+end process;
+
+--Latching process za dugmad
+upravljanje_zahtevima: process(clk, reset)
+begin
+    if (reset= '1') then
+        reg_spoljasnji(0) <= '1';
+    elsif (clk'event and clk='1') then
+        if(unutrasnji(0)='1') then reg_unutrasnji(0)<='1'; end if;
+        if(unutrasnji(1)='1') then reg_unutrasnji(1)<='1'; end if;
+        if(unutrasnji(2)='1') then reg_unutrasnji(2)<='1'; end if;
+        
+        if(spoljasnji(0)='1') then reg_spoljasnji(0)<='1'; end if;
+        if(spoljasnji(1)='1') then reg_spoljasnji(1)<='1'; end if;
+        if(spoljasnji(2)='1') then reg_spoljasnji(2)<='1'; end if;
+        
+        if (trenutno = dolazak) then
+            if sprat = 0 then   
+                reg_unutrasnji(0)<='0';
+                reg_spoljasnji(0)<='0';
+            elsif sprat = 1 then   
+                reg_unutrasnji(1)<='0';
+                reg_spoljasnji(1)<='0';
+            elsif sprat = 2 then   
+                reg_unutrasnji(2)<='0';
+                reg_spoljasnji(2)<='0'; 
+            end if;
+        end if;
+    end if;
+end process;
+
+--kombinaciona logika
+sledece_stanje: process(reset, trenutno, brojacSekundi1, brojacSekundi2, sprat, reg_unutrasnji, reg_spoljasnji, senzor)
+begin
+    -- 1. PREVENT LATCHES: Default assignments
+    sledece <= trenutno;
+    next_sprat <= sprat; 
+    crvena <= '0'; zelena <= '0'; plava <= '0';
+    
+    --if(rst=1) sprat
+    
+    case trenutno is
+        when pocetno =>
+            zelena <= '1';
+            if (reset = '1') then
+            sledece <= na_dole;
+            end if;
+            -- Use senzor to decide which register to look at
+            if (senzor = '1') then
+                -- INTERNAL MODE: Cabin buttons take priority
+                if reg_unutrasnji /= "000" then
+                    if (reg_unutrasnji(1) = '1' and sprat < 1) or (reg_unutrasnji(2) = '1') then
+                        sledece <= na_gore;
+                    elsif (reg_unutrasnji(0) = '1') or (reg_unutrasnji(1) = '1' and sprat > 1) then
+                        sledece <= na_dole;
+                    elsif (reg_unutrasnji(sprat) = '1') then
+                        sledece <= vrata_otvorena;
+                    end if;
+                end if;
+            else
+                -- EXTERNAL MODE: Hall buttons
+                if reg_spoljasnji /= "000" then
+                    if (reg_spoljasnji(1) = '1' and sprat < 1) or (reg_spoljasnji(2) = '1') then
+                        sledece <= na_gore;
+                    elsif (reg_spoljasnji(0) = '1') or (reg_spoljasnji(1) = '1' and sprat > 1) then
+                        sledece <= na_dole;
+                    elsif (reg_spoljasnji(sprat) = '1') then
+                        sledece <= vrata_otvorena;
+                    end if;
+                end if;
+            end if;
+
+        when na_gore =>
+            plava <= '1';
+            -- Determine destination based on sensor
+            if senzor = '1' then
+                -- Go to highest requested floor if multiple internal buttons pressed
+                if reg_unutrasnji(2) = '1' then next_sprat <= 2; led_spoljasnja<="100";
+                elsif reg_unutrasnji(1) = '1' then next_sprat <= 1; led_spoljasnja<="010";
+                end if;
+            else
+                if reg_spoljasnji(2) = '1' then next_sprat <= 2; led_spoljasnja<="100";
+                elsif reg_spoljasnji(1) = '1' then next_sprat <= 1; led_spoljasnja<="010";
+                end if;
+            end if;
+
+            -- Timing logic (Distance check)
+            if abs(next_sprat - sprat) = 1 then
+                if brojacSekundi1 = 5 then sledece <= dolazak; end if;
+            else
+                if brojacSekundi2 = 10 then sledece <= dolazak; end if;
+            end if;
+
+        when na_dole =>
+            plava <= '1';
+            -- Determine destination based on sensor
+            if senzor = '1' then
+                if reg_unutrasnji(0) = '1' then next_sprat <= 0; led_spoljasnja<="001";
+                elsif reg_unutrasnji(1) = '1' then next_sprat <= 1; led_spoljasnja<="010";
+                end if;
+            else
+                if (reg_spoljasnji(0) = '1')
+                 then next_sprat <= 0; led_spoljasnja<="001";
+                elsif reg_spoljasnji(1) = '1' then next_sprat <= 1; led_spoljasnja<="010";
+                end if;
+            end if;
+
+            if abs(next_sprat - sprat) = 1 then
+                if brojacSekundi1 = 5 then sledece <= dolazak; end if;
+            else
+                if brojacSekundi2 = 10 then sledece <= dolazak; end if;
+            end if;
+
+        when dolazak =>
+            crvena <= '1';
+            sledece <= vrata_otvorena;
+
+        when vrata_otvorena =>
+            crvena <= '1';
+            led_spoljasnja<="000";
+            if brojacSekundi2 = 10 then 
+                sledece <= vrata_zatvorena; 
+            end if;
+
+        when vrata_zatvorena =>
+            zelena <= '1';
+            sledece <= pocetno;
+
+        when others =>
+            sledece <= pocetno;
+    end case;
+end process;
+end Behavioral;
